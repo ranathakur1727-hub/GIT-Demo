@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
- 
-  return (
-    <>
-   <h1>HELLO, WORLD!
-    <br /> 
-    my name is ANUBHAV SOLANKI</h1> 
-    </>
+import Header from "./components/Header.jsx";
+import Hero from "./components/Hero.jsx";
+function App(){
+  return(
+    <div>
+    <Header></Header>
+  <Hero></Hero>
+    </div>
   )
-}
+} 
 
-export default App
+export default App;
